@@ -5,20 +5,20 @@
 class ExtractChromeStorage < Formula
   desc ""
   homepage ""
-  version "0.0.3"
+  version "0.0.5"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/shunirr/extract-chrome-storage/releases/download/v0.0.3/extract-chrome-storage_0.0.3_darwin_amd64.tar.gz"
-    sha256 "cbff962a3dd58805a37c5b2dac28fd1503c4dfdc89c07369fda49ab8f17f3348"
+    url "https://github.com/shunirr/extract-chrome-storage/releases/download/v0.0.5/extract-chrome-storage_0.0.5_darwin_amd64.tar.gz"
+    sha256 "b1965a012e9a3f58d7b7a8b16a9d039d864670a724dab8d3c952de4d118a8bd7"
 
     def install
       bin.install "extract-chrome-storage"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/shunirr/extract-chrome-storage/releases/download/v0.0.3/extract-chrome-storage_0.0.3_darwin_arm64.tar.gz"
-    sha256 "4a05a447493aa95e775e18c5cf05c6e0f2b8c312b557a1c1bbebf41d6a144724"
+    url "https://github.com/shunirr/extract-chrome-storage/releases/download/v0.0.5/extract-chrome-storage_0.0.5_darwin_arm64.tar.gz"
+    sha256 "68772917dbdff19c4e7df2e33671f16319eedb868104188e7c78b0e7c1fab5cf"
 
     def install
       bin.install "extract-chrome-storage"
